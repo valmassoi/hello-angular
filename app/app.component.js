@@ -9,6 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+require('./rxjs-extensions');
 var router_1 = require('@angular/router');
 var hero_service_1 = require('./hero.service');
 var AppComponent = (function () {
